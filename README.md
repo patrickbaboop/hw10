@@ -1,22 +1,13 @@
-# Giga Pet Project
+# HW10 - Chrome DevTools Project
 
 ## Description
-
-A simple virtual pet game built using HTML, CSS, JavaScript, and jQuery.
-Users can interact with the pet using buttons that change its happiness and weight.
-
-## Features
-
-* Treat, Play, Exercise, and Sleep buttons
-* Pet stats update in real time
-* Stats cannot go below 0
-* Happiness is capped at 100
-* Pet displays messages after each action
+This assignment demonstrates the use of Chrome DevTools features such as logging, debugging, error handling, and filtering. The project is based on a modified version of the Giga Pet application.
 
 ## Live Site
+https://patrickbaboop.github.io/hw10/
 
-https://patrickbaboop.github.io/project2/
+## DevTools Report
+[View DevTools Report](assets/devtools-report.pdf)
 
 ## Author
-
 Patrick Banting
