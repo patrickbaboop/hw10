@@ -147,7 +147,7 @@ function triggerViolation() {
 
 // BUG
 function buggyAdd(a, b) {
-  return a - b; // WRONG
+  return a + b; // WRONG
 }
 
 console.log("Buggy result:", buggyAdd(5, 3));
