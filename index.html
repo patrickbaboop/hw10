@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Giga Pet</title>
+    <meta charset="utf-8">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>This is your Giga Pet 🐶</h1>
+    </header>
+
+    <main>
+      <section class="pet-image-container">
+        <!-- Replace with your own image -->
+        <img class="pet-image" src="images/hound.jpg">
+      </section>
+
+      <section class="dashboard">
+        <div>Name: <strong><span class="name"></span></strong></div>
+        <div>Weight: <strong><span class="weight"></span> lbs</strong></div>
+        <div>Happiness: <strong><span class="happiness"></span></strong></div>
+
+        <!-- NEW MESSAGE AREA -->
+        <div class="pet-message"></div>
+
+        <div class="button-container">
+          <button class="treat-button">Treat</button>
+          <button class="play-button">Play</button>
+          <button class="exercise-button">Exercise</button>
+
+          <!-- NEW BUTTON -->
+          <button class="sleep-button">Sleep</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  </body>
+</html>

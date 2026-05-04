@@ -1,0 +1,14 @@
+.pet-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-style: italic;
+  display: none;
+}
+
+/* Small upgrade */
+button:hover {
+  background-color: #3a4a5f;
+}
